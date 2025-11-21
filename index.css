@@ -34,3 +34,32 @@ nav a{
     color: white;
     font-size: 30px;
 }
+
+/* section about me */
+
+.me{
+    display: flex;
+    margin: 100px 100px 100px;
+    text-align: justify;
+    
+}
+.me img{
+    padding-right: 40px;
+}
+
+
+/* section inspiration */
+
+.card{
+    border: 1px solid #ff1111;
+    border-radius: 3px;
+
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+     grid-gap: 20px;
+}
